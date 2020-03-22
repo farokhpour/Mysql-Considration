@@ -1,0 +1,37 @@
+# AND
+1 AND 1  ==> is true because 1 is true and both sides are true;
+___________
+# OR
+1 OR 0 ==> is true because 1 is true and one side must be true;
+___________
+# XOR 
+1 XOR 0 ==> is true because 1 is true and 0 is false and XOR works this way
+(one side must be true and other side must be false)
+___________
+# IS TRUE 
+1 IS TRUE ==> is true 
+___________
+# IS NOT TRUE 
+1 IS NOT TRUE ==> is false
+___________
+# IS NULL and IS NOT NULL
+___________
+# IN 
+1 IN (1,2,3,4) ==> is true
+___________
+# DIV
+5 DIV 3 ==> is differents from / because 5/3 is 1.6669
+bug 5 DIV 3 is equal 1 (make the answer integer)
+special note: division to 0 in mysql returns null
+ 5 / 0 = null
+___________
+# MOD OR %(is just for MYSQL)
+this is operator to get remainders of a division  
+___________
+# CASE statement
+CASE WHEN (condition for example:b>0) THEN (return statement could be anything you want)
+ELSE (return statement when false) END from table_name;
+___________
+# IF function
+IF(condition:a>2 , return statement , return statement as false) from table_name;
+
