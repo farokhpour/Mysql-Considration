@@ -1,0 +1,15 @@
+#######   CREATE TABLE statement
+CREATE TABLE(
+column_id type(max-length),
+column_id type(max-length),
+...
+);
+###### show table status
+DESCRIBE table_name;
+show table info in brief;
+
+SHOW TABLE SATAUS:
+show all tables status in details;
+
+SHOW CREATE TABLE table_name;
+show the full query of creating table in very much details;
