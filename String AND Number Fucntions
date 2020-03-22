@@ -1,0 +1,35 @@
+# STRCMP(str1,str2)
+STRCMP() returns 0 if the strings are the same,
+-1 if the first argument is smaller than the second according to the current sort order, and 1 otherwise.
+____________
+# RLIKE 
+regular expression like
+____________
+# CONCAT(str1 , str2)
+____________
+# HEX(number)
+turns a decimal number base to heximal base number 
+____________
+# OCT(number)
+turns a decimal number base to octal(eight) base number 
+____________
+# BIN(number)
+turns a decimal number base to binary base number 
+____________
+# CONV(number,CurrenBase,ConvertedBase)
+____________ 
+# TRIM(str) ,LTRIM(str) for left trim , RTRIM(str) for right trim
+removes spaces from both leading and trailing ends.
+you can also trim a character from string like this 
+TRIM('x' from 'xxxxWhat ever andxxxxx') ==> What ever and
+____________
+# LPAD('str' , totalLength, charToAdd)
+LPAD('test',10,'.')==> ......test add 6 . charater on the left of test because 
+test is 4 length. also we have RPAD;
+___________
+# SUBSTRING(string,staringPosition,Length)  SUBSTR alias fro SUBSTRING start from 1 unlike scripting lang that start from 0
+SUBSTRING('is a string' , 6 , 2) ==> st
+SUBSTRING('is a string' ,-6) by putting minus in second argumenst it starts from end of string ==> string
+___________
+# SUBSTRING_INDEX https://www.w3schools.com/sql/func_mysql_substring_index.asp
+
